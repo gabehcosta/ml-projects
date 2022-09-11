@@ -1,0 +1,32 @@
+Etapas construção projeto
+
+1-Deixar apenas as colunas úteis para treinamento do modelo.
+
+2-Explorar os dados:
+	2.1-Profissões mais comuns entre os pais.
+	2.2-Qtd pais separados.
+	2.3-Alunos com intenção de fazer faculdade.
+	2.4-Escolaridade dos pais.
+	2.5-Qtd de alunos por escola.
+	2.6-Média de notas dos alunos por escola.
+
+
+3-Separar o conjunto de dados em features e labels. (X e y)
+
+4-Substituir informações categóricas por numéricas para treino do modelo. (Ordinal encoder ou one hot encoder)
+
+5-Escolher algoritmos de regressão para predição de notas. (linear reg, random forest or decisison tree)
+
+6-Treinar os modelos.
+
+7-Realizar a previsão.
+
+8-Calcular o erro.(mae, mape, mse, rmse)
+
+9-Escolher o melhor modelo e treiná-lo com Validação Cruzada. (cross_valid)
+
+10- Cacular o erro.(mae, mape, mse, rmse)
+
+11-Salvar o modelo.
+
+12-Publicar no github.
